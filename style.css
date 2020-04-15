@@ -122,3 +122,23 @@ footer {
 	margin-top: 10px;
 	margin-left: 52%;
 }
+.menu1 {
+	width: 40%;
+	background-color: #f2deea;
+	margin: auto;
+}
+.menu2 {
+	width: 40%;
+	background-color: #f4e6e6;
+	margin: auto;
+}
+.menu3 {
+	width: 40%;
+	background-color: #f7f2f2;
+	margin: auto;
+}
+.menu4 {
+	width: 40%;
+	background-color: #f7f2f2;
+	margin: auto;
+}
