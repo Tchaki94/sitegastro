@@ -1,5 +1,6 @@
 body {
 	background-color: #f5d4bf
+	margin: 0px;
 }
 .contenair {
 	background-color: white;
@@ -9,10 +10,9 @@ body {
 	width: 100%;
 	height: 100%;
 	font-size: 18px;
-	font-family: 'Dancing Script', cursive;
 }
 header{
-	background-color: #5f9c7d;
+	background-color: #579C87;
 	width: 100%;
 	display: flex;
 	margin: auto;
@@ -20,11 +20,12 @@ header{
 	font-size: 18px;
 }
 h1 {
-	color: #ebda5e;
+	color: #fdcb46;
 }
 h2 {
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Dancing Script', cursive;
 }
 h3 {
 	display: flex;
@@ -58,7 +59,7 @@ h4 {
 	width: 90px;
 	height: 150px;
 	padding: 80px;
-	background: #f2deea;
+	background: #fcdfdb;
 	text-decoration: none;
 	text-align: center;
 }
@@ -67,7 +68,7 @@ h4 {
 	width: 90px;
 	height: 150px;
 	padding: 80px;
-	background: #f4eded;
+	background: #fff5fe;
 	text-decoration: none;
 	text-align: center;
 	border: 3px solid #f4e6e6;
@@ -77,9 +78,10 @@ h4 {
 	width: 90px;
 	height: 150px;
 	padding: 80px;
-	background: #f7f2f5;
+	background: #f9f9f9;
 	text-decoration: none;
 	text-align: center;
+	font-family: 'Satisfy', cursive;
 
 }
 .btn-quaternary {
@@ -87,79 +89,121 @@ h4 {
 	width: 90px;
 	height: 150px;
 	padding: 80px;
-	background: #f7efef;
+	background: #fdfffd;
 	text-decoration: none;
 	text-align: center;
 	border: 10px solid #f7f2f2;
 }
 .soon {
-	background-color: #5f9c7d;
+	background-color: #579C87;
 	border-radius: 3%;
 	width: 15%;
 	height: 50px;
 	display: flex;
 	margin: auto;
 	justify-content: space-around;
+	padding-bottom: 10px;
 }
 .startingsoon {
 	width: 100%;
 	height: 50px;
-	color: #ebda5e;
-	padding-top: 15px;
-	display: inline-block;
+	color: #fdcb46;
 	text-decoration: none;
 	text-align: center;
 }
 footer {
-	background-color: #5f9c7d;
+	width: 100%;
 	margin-top: 30px;
 	height: 50px;
 }
 .btn5-6 {
-	width: 100%;
 	display: flex;
 	margin: auto;
 	justify-content: space-around;
 }
 .mention {
-	color: #ebda5e;
+	background-color: #579C87;
+	width: 15%;
+	height: 45px;
+	color: #fdcb46;
 	text-decoration: none;
-	width: 50%;
 	font-size: 22px;
-	margin-top: 10px;
-	margin-left: 10%;
+	text-align: center;
+	padding-top: 10px;
+
 }
 .contact {
-	color: #ebda5e;
+	background-color: #579C87;
+	color: #fdcb46;
 	text-decoration: none;
-	width: 50%;
 	font-size: 22px;
-	margin-top: 10px;
-	margin-left: 52%;
+	width: 15%;
+	height: 45px;
+	text-align: center;
+	padding-top: 10px;
+}
+.mention:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+  	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  	20% { transform: translate(-3px, 0px) rotate(1deg); }
+  	30% { transform: translate(3px, 2px) rotate(0deg); }
+  	40% { transform: translate(1px, -1px) rotate(1deg); }
+  	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  	60% { transform: translate(-3px, 1px) rotate(0deg); }
+  	70% { transform: translate(3px, 1px) rotate(-1deg); }
+  	80% { transform: translate(-1px, -1px) rotate(1deg); }
+  	90% { transform: translate(1px, 2px) rotate(0deg); }
+  	100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.contact:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
 }
 .menu1 {
 	width: 40%;
-	background-color: #f2deea;
+	background-color: #fcdfdb;
 	margin: auto;
+	font-family: 'Dancing Script', cursive;
+
+}
+.btn-first:hover {
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+.btn-secondary:hover {
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+.btn-tertiary:hover {
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+.btn-quaternary:hover {
+	transform: scale(1.1);
+	opacity: 0.5;
 }
 .menu2 {
 	width: 40%;
-	background-color: #f4e6e6;
+	background-color: #fff5fe;
 	margin: auto;
 }
 .menu3 {
 	width: 40%;
-	background-color: #f7f2f2;
+	background-color: #f9f9f9;
 	margin: auto;
+	font-family: 'Satisfy', cursive;
 }
 .menu4 {
 	width: 40%;
-	background-color: #f7f2f2;
+	background-color: #fdfffd;
 	margin: auto;
 }
 .entree {
 	display: flex;
-	margin: auto;
 	justify-content: space-around;
 }
 .main-menu1 {
