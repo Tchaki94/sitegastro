@@ -75,6 +75,7 @@ h4 {
 	flex-direction: column;
 	margin-top: 100px;
 }
+/* color texte degrade */
 .menu2>h3 {
 	background: linear-gradient(to right, #c77412 0%, #c4a3fe 55%, #c4a3fe 55%, #a56799 100%);
 	-webkit-text-fill-color: transparent;
@@ -98,6 +99,39 @@ h4 {
 .entree6,.titre-entree6 {
 	color:#6e4ccc ;
 }
+.resto1>i {
+	background: linear-gradient(135deg, #f04c5e 0%,#f57d69 50%,#f7916d 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+.resto3>h2{
+	background: linear-gradient(to right, #0121da 0%, #2974ee 48%, #0889fb 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+.resto3>h2 {
+	color: #0887fb;
+}
+.menu3>h3 {
+	background: linear-gradient(to right, #0121da 0%, #2974ee 48%, #0889fb 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+.resto4>h2 {
+	background: linear-gradient(to right, #3e923a 0%, #95d771 48%, #beff7f 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+.resto4>h2 {
+	color: #72bf56;
+}
+.menu4>h3 {
+	background: linear-gradient(to right, #3e923a 0%, #95d771 48%, #beff7f 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+/* fin color texte degrade */
+/* bouton page principale */
 .resto3-4 {
 	display: flex;
 	margin: auto;
@@ -105,12 +139,6 @@ h4 {
 	width: 100%;
 	height: 325px;
 	margin-top: 30px;
-}
-.resto3>h2 {
-	color: #0887fb;
-}
-.resto4>h2 {
-	color: #72bf56;
 }
 .btn-first {
 	display: inline-block;
@@ -120,7 +148,7 @@ h4 {
 	background: #fcdfdb;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary {
 	display: inline-block;
@@ -129,7 +157,7 @@ h4 {
 	background: #fff5fe;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 	font-family: 'Caudex', serif;
 }
 .btn-tertiary {
@@ -140,7 +168,7 @@ h4 {
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Satisfy', cursive;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 
 }
 .btn-quaternary {
@@ -150,7 +178,7 @@ h4 {
 	background: #fdfffd;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 	font-family: 'Kalam', cursive;
 }
 .soon {
@@ -230,7 +258,7 @@ footer {
 	opacity: 0.5;
 }
 .resto2:hover {
-	transform: scale(1.5);
+	transform: scale(1.4);
 	opacity: 0.5;
 }
 .resto3:hover {
@@ -241,12 +269,14 @@ footer {
 	transform: scale(1.6);
 	opacity: 0.5;
 }
+/* Fin bouton principale*/
 .menu1 {
 	width: 40%;
 	background-color: #fcdfdb;
 	margin: auto;
 	padding: 15px 0px 15px 0px;
 	font-family: 'Dancing Script', cursive;
+	color: #3c1218;
 }
 .menu2 {
 	width: 40%;
@@ -265,10 +295,31 @@ footer {
 }
 .menu4 {
 	width: 40%;
+	font-size: 14px;
 	background-color: #fdfffd;
 	margin: auto;
 	padding: 15px 0px 15px 0px;
 	font-family: 'Kalam', cursive;
+}
+.menu1>i {
+	display: flex;
+	margin:auto;
+	justify-content: space-around;
+	background: linear-gradient(135deg, #f04c5e 0%,#f57d69 50%,#f7916d 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
+.menu3>h3 {
+	font-size: 36px;
+	margin-top: -5px;
+}
+.menu2>h3 {
+	font-size: 34px;
+	margin-top: -5px;
+}
+.menu4>h3 {
+	font-size: 34px;
+	margin-top: -5px;
 }
 .entree {
 	display: flex;
@@ -311,6 +362,11 @@ footer {
 	width: 100%;
 	height: 770px;
 	font-family: 'Kalam', cursive;
+}
+.main2 {
+	height: 720px;
+	margin-top: 50px;
+	margin-left: 50px;
 }
 @media screen and (max-width: 768px) {
 
