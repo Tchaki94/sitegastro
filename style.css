@@ -342,6 +342,18 @@ footer {
 	justify-content: space-around;
 	font-size: 25px;
 }
+img {
+	width: 350px;
+	height: 15px;
+	margin-top: 25px;
+
+}
+.titre-entree1,.titre-entree2,.titre-entree3,.titre-entree4,.titre-entree5,.titre-entree6,.titre-entree7 {
+	display: flex;
+}
+.titre-entree8,.titre-entree9,.titre-entree10,.titre-entree11,.titre-entree12 {
+	display: flex;
+}
 .main-menu1 {
 	width: 100%;
 	height: 770px;
