@@ -183,20 +183,51 @@ h4 {
 }
 .soon {
 	background-color: #579C87;
-	border-radius: 3%;
+	border-radius: 10%;
 	width: 15%;
 	height: 50px;
-	display: flex;
 	margin: auto;
-	justify-content: space-around;
-	padding-bottom: 10px;
 }
 .startingsoon {
-	width: 100%;
-	height: 50px;
-	color: #fdcb46;
 	text-decoration: none;
-	text-align: center;
+	color: #fdcb46;
+	justify-content: space-around;
+	margin: auto;
+	display: flex;
+}
+.loading {
+	margin-top: 20px;
+	transform: translate(-50%, -50%);
+}
+.circle {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #fdcb46;
+	border-radius: 50%;
+	animation:loading 1.5s cubic-bezier(.8, .5, .2, 1.4)infinite;
+	transform-origin: bottom center;
+	position: relative;
+}
+@keyframes loading{
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(25px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.circle-1 {
+	animation-delay: 0.1s;
+}
+.circle-2 {
+	animation-delay: 0.2s;
+}
+.circle-3 {
+	animation-delay: 0.3s;
 }
 footer {
 	background-color: #579C87;
@@ -232,6 +263,7 @@ footer {
 .btn6>h2 {
 	font-size: 24px;
 }
+/* Bouton resto page d'accueuil */
 .btn5>h2:hover {
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
@@ -411,7 +443,7 @@ img {
 }
 .main-menu1 {
 	width: 100%;
-	height: 850px;
+	height: 770px;
 	font-family: 'Dancing Script', cursive;
 	font-size: 16px;
 }
@@ -419,22 +451,210 @@ img {
 	width: 100%;
 	height: 770px;
 	font-family: 'Caudex', serif;
+	font-size: 17px;
 }
 .main-menu3 {
 	width: 100%;
 	height: 770px;
 	font-family: 'Satisfy', cursive;
+	font-size: 17px;
 }
 .main-menu4 {
 	width: 100%;
 	height: 770px;
 	font-family: 'Kalam', cursive;
+	font-size: 18px;
 }
 .main2 {
 	height: 720px;
 	margin-top: 50px;
 	margin-left: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 736px)
+{
+	h1{
+		margin: auto;
+		font-size: 30px;
+	}
+	.main {
+		height: 1500px;
+	}
+	.resto1-2 {
+		display: flex;
+		flex-direction: column;
+		margin-top: 150px;
+	}
+	.resto3-4 {
+		display: flex;
+		flex-direction: column;
+		margin-top: 290px;
+	}
+	.btn-first {
+		width: 40%;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.resto1 {
+		height: 400px;
+	}
+	.btn-secondary {
+		width: 40%;
+		height: 400px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.btn-tertiary {
+		width: 40%;
+		height: 400px;
+		margin: auto;
+		margin-top: 130px;
 
+	}
+	.btn-quaternary {
+		width: 40%;
+		height: 400px;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.soon {
+		margin-top: 350px;
+		width: 40%;
+		margin-bottom: 200px;
+	}
+	footer {
+		height: 100px;
+		position: fixed;
+		margin-top: 750px;
+	}
+	.main-menu1,.main-menu2,.main-menu3,.main-menu4 {
+		height: 900px;
+	}
+	.main-menu2 {
+		font-size: 16px;
+	}
+	.main-menu3 {
+		font-size: 16px;
+	}
+	.menu1,.menu3,.menu4 {
+		width: 90%;
+	}
+	.menu2 {
+		width: 90%;
+	}
+	.titre-entree4>img {
+		width: 200px;
+	}
+	.titre-entree6>img {
+		width: 200px;
+	}
+	.prix7 {
+		margin-left: 10px;
+	}
+
+}
+@media screen and (max-width: 360px)
+{
+	.btn-first {
+		width: 70%;
+		margin: auto;
+		margin-top: 50px;
+	}
+	.btn-secondary {
+		width: 70%;
+	}
+	.btn-tertiary {
+		width: 70%;
+	}
+	.btn-quaternary {
+		width: 70%;
+	}
+	.soon {
+		width: 75%;
+		margin-bottom: 150px;
+	}
+	.main-menu1 {
+		font-size: 12px;
+	}
+	img {
+		width: 100px;
+		height: 10px;
+	}
+	.prix1>p {
+		padding-top: 12px;
+	}
+	.prix2>p {
+		padding-top: 10px;
+	}
+	.main-menu2 {
+		font-size: 12px;
+	}
+	.menu4 {
+		font-size: 12px;
+	}
+	.titre-entree4>img {
+		width: 60px;
+		height: 8px;
+	}
+	.titre-entree5>img {
+		width: 60px;
+		height: 8px;
+	}
+	.titre-entree6>img {
+		width: 60px;
+		height: 8px;
+	}
+	.prix4>p {
+		padding-top: 7px;
+		margin-left: 55px;
+	}
+	.prix5>p {
+		padding-top: 25px;
+		margin-left: 45px;
+	}
+	.main-menu3 {
+		font-size: 12px;
+	}
+	.startingsoon>div {
+		margin-left: 30px;
+	}
+	.prix7>p {
+		padding-top: 17px;
+		margin-left: 40px;
+	}
+	.prix8>p {
+		padding-top: 18px;
+		margin-left: 40px;
+	}
+	.prix10>p {
+		padding-top: 20px;
+		margin-left: 40px;
+	}
+	.prix11>p {
+		padding-top: 32px;
+		margin-left: 40px;
+	}
+	.prix12>p {
+		padding-top: 25px;
+		margin-top: -4px;
+		margin-left: 40px;
+	}
+	.entree4,.entree5,.entree7,.entree8,.entree10,.entree11,.entree12 {
+		margin-left: -20px;
+	}
+	.titre-entree7>h3 {
+		margin-left: 15px; 
+	}
+	.titre-entree8>h3 {
+		margin-left: 15px;
+	}
+	.titre-entree9>h3 {
+		margin-left: 15px;
+	}
+	.mention {
+		margin-left: -50px;
+	}
+	footer {
+		position: fixed;
+		margin-top: 450px;
+	}
 }
