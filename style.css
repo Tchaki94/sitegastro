@@ -522,9 +522,8 @@ img {
 		margin-bottom: 200px;
 	}
 	footer {
-		height: 100px;
 		position: fixed;
-		margin-top: 750px;
+		bottom: 0;	
 	}
 	.main-menu1,.main-menu2,.main-menu3,.main-menu4 {
 		height: 900px;
@@ -654,7 +653,7 @@ img {
 		margin-left: -50px;
 	}
 	footer {
-		position: fixed;
-		margin-top: 450px;
+		position:fixed;
+		bottom: 0;
 	}
 }
