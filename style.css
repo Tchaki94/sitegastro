@@ -20,8 +20,6 @@ h1 {
 	width: 15%;
 	height: 50px;
 	color: #fdcb46;
-	display: flex;
-	justify-content: space-around;
 	font-size: 40px;
 	margin-top: 18px;
 }
@@ -47,28 +45,7 @@ h4 {
 	height: 325px;
 	margin-top: 30px;
 }
-.resto1 {
-	width: 100%;
-	height: 50%;
-	display: flex;
-	flex-direction: column;
-	margin-top: 100px;
-}
-.resto2 {
-	width: 100%;
-	height: 50%;
-	display: flex;
-	flex-direction: column;
-	margin-top: 100px;
-}
-.resto3 {
-	width: 100%;
-	height: 50%;
-	display: flex;
-	flex-direction: column;
-	margin-top: 100px;
-}
-.resto4 {
+.resto1,.resto2,.resto3,.resto4 {
 	width: 100%;
 	height: 50%;
 	display: flex;
@@ -140,6 +117,11 @@ h4 {
 	height: 325px;
 	margin-top: 30px;
 }
+.btn-titre {
+	display: inline-block;
+	text-decoration: none;
+	justify-content: space-around;
+}
 .btn-first {
 	display: inline-block;
 	width: 13%;
@@ -184,11 +166,12 @@ h4 {
 .soon {
 	background-color: #579C87;
 	border-radius: 10%;
-	width: 15%;
+	width: 20%;
 	height: 50px;
 	margin: auto;
 }
 .startingsoon {
+	width: 100%;
 	text-decoration: none;
 	color: #fdcb46;
 	justify-content: space-around;
@@ -247,7 +230,6 @@ footer {
 	color: #fdcb46;
 	text-decoration: none;
 	text-align: center;
-
 }
 .contact {
 	background-color: #579C87;
@@ -426,7 +408,7 @@ h3:hover::after {
 	font-size: 25px;
 }
 img {
-	width: 250px;
+	width: 30%;
 	height: 15px;
 	margin-top: 25px;
 
@@ -470,22 +452,52 @@ img {
 	margin-top: 50px;
 	margin-left: 50px;
 }
+@media screen and (max-width: 1170px)
+{
+	.soon {
+		width: 25%;
+	}
+	.btn5>h2 {
+		font-size: 18px;
+	}
+	.mention {
+		width: 30%;
+	}
+	.btn6>h2 {
+		font-size: 18px;
+	}
+	.contact {
+		width: 30%;
+	}
+	footer {
+		position: fixed;
+		bottom: 0px;
+	}
+	.main,.main-menu1,.main-menu2,.main-menu3,.main-menu4 {
+		height: 1000px;
+	}
+@media screen and (max-width: 1500px)
+{
+	.soon {
+		width: 25%;
+	}
+}
+@media screen and (max-width: 900px)
+{
+	.soon {
+		width: 30%;
+	}
+}
 @media screen and (max-width: 736px)
 {
-	h1{
-		margin: auto;
-		font-size: 30px;
-	}
 	.main {
 		height: 1500px;
 	}
 	.resto1-2 {
-		display: flex;
 		flex-direction: column;
 		margin-top: 150px;
 	}
 	.resto3-4 {
-		display: flex;
 		flex-direction: column;
 		margin-top: 290px;
 	}
@@ -497,7 +509,7 @@ img {
 	.resto1 {
 		height: 400px;
 	}
-	.btn-secondary {
+	.btn-secondary,.btn-quaternary {
 		width: 40%;
 		height: 400px;
 		margin: auto;
@@ -508,17 +520,10 @@ img {
 		height: 400px;
 		margin: auto;
 		margin-top: 130px;
-
-	}
-	.btn-quaternary {
-		width: 40%;
-		height: 400px;
-		margin: auto;
-		margin-top: 20px;
 	}
 	.soon {
-		margin-top: 350px;
 		width: 40%;
+		margin-top: 350px;
 		margin-bottom: 200px;
 	}
 	footer {
@@ -528,10 +533,7 @@ img {
 	.main-menu1,.main-menu2,.main-menu3,.main-menu4 {
 		height: 900px;
 	}
-	.main-menu2 {
-		font-size: 16px;
-	}
-	.main-menu3 {
+	.main-menu2,.main-menu3 {
 		font-size: 16px;
 	}
 	.menu1,.menu3,.menu4 {
@@ -549,22 +551,59 @@ img {
 	.prix7 {
 		margin-left: 10px;
 	}
-
+	.btn5>h2 {
+		font-size: 18px;
+	}
+	.mention {
+		width: 30%;
+	}
+	.btn6>h2 {
+		font-size: 18px;
+	}
+	.contact {
+		width: 30%;
+	}
 }
-@media screen and (max-width: 360px)
+@media screen and (max-width: 600px)
+{
+	.soon {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 570px)
+{
+	.soon {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 460px)
+{
+	.soon {
+		width: 60%;
+	}
+@media screen and (max-width: 430px)
+{
+	.btn5>h2 {
+		font-size: 18px;
+	}
+	.mention {
+		width: 30%;
+	}
+	.btn6>h2 {
+		font-size: 18px;
+	}
+	.contact {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 370px)
 {
 	.btn-first {
 		width: 70%;
 		margin: auto;
 		margin-top: 50px;
 	}
-	.btn-secondary {
-		width: 70%;
-	}
-	.btn-tertiary {
-		width: 70%;
-	}
-	.btn-quaternary {
+	.btn-secondary,.btn-tertiary,.btn-quaternary{
 		width: 70%;
 	}
 	.soon {
@@ -584,10 +623,7 @@ img {
 	.prix2>p {
 		padding-top: 10px;
 	}
-	.main-menu2 {
-		font-size: 12px;
-	}
-	.menu4 {
+	.main-menu2,.menu4 {
 		font-size: 12px;
 	}
 	.titre-entree4>img {
@@ -655,5 +691,17 @@ img {
 	footer {
 		position:fixed;
 		bottom: 0;
+	}
+	.btn5>h2 {
+		font-size: 14px;
+	}
+	.mention {
+		width: 50%;
+	}
+	.btn6>h2 {
+		font-size: 15px;
+	}
+	.contact {
+		width: 50%;
 	}
 }
