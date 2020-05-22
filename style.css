@@ -34,6 +34,9 @@ h4 {
 .main {
 	width: 100%;
 }
+.main-menu2 {
+	height: 770px;
+}
 .resto1, 
 .resto2, 
 .resto3, 
@@ -109,6 +112,7 @@ h4 {
 	width: 250px;
 	height: 50px;
 	margin: auto;
+	margin-top: 20px;
 }
 .startingsoon {
 	width: 100%;
@@ -179,8 +183,10 @@ footer {
 .main2 {
 	margin:50px 50px 50px 50px;
 }
+
 /* couleur texte */
-.menu2>h2 {
+.menu2 h2,
+.resto2 h2 {
 	background: linear-gradient(to right, #c77412 0%, #c4a3fe 55%, #c4a3fe 55%, #a56799 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
@@ -188,17 +194,13 @@ footer {
 .resto1>h2{
 	color: #3c1218;
 }
-.resto2>h2 {
-	background: linear-gradient(to right, #c77412 0%, #c4a3fe 55%, #c4a3fe 55%, #a56799 100%);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip:text;
-}
 .resto1>i {
 	background: linear-gradient(135deg, #f04c5e 0%,#f57d69 50%,#f7916d 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
 }
-.resto3>h2{
+.resto3 h2,
+.menu3 h2 {
 	background: linear-gradient(to right, #0121da 0%, #2974ee 48%, #0889fb 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
@@ -206,23 +208,14 @@ footer {
 .resto3>h2 {
 	color: #0887fb;
 }
-.menu3>h2 {
-	background: linear-gradient(to right, #0121da 0%, #2974ee 48%, #0889fb 100%);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip:text;
-}
-.resto4>h2 {
+.resto4 h2,
+.menu4 h2 {
 	background: linear-gradient(to right, #3e923a 0%, #95d771 48%, #beff7f 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
 }
 .resto4>h2 {
 	color: #72bf56;
-}
-.menu4>h2 {
-	background: linear-gradient(to right, #3e923a 0%, #95d771 48%, #beff7f 100%);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip:text;
 }
 .color1 {
 	color: #c77412;
@@ -315,15 +308,15 @@ h3:hover::after {
 .menu3 {
 	width: 45%;
 	min-width: 500px;
-	height: 750px;
+	height: 770px;
 	background-color: #f9f9f9;
 	margin: auto;
 	font-family: 'Satisfy', cursive;
 }
 .menu4 {
-	width: 40%;
+	width: 50%;
 	min-width: 500px;
-	height: 750px;
+	height: 770px;
 	background-color: #fdfffd;
 	margin: auto;
 	font-family: 'Kalam', cursive;
@@ -337,7 +330,9 @@ h3:hover::after {
 	margin: auto;
 	justify-content: space-around;
 }
-.menu3 h3, .menu2 h3, .menu4 h3 {
+.menu3 h3, 
+.menu2 h3, 
+.menu4 h3 {
 	font-size: 22px;
 }
 .titre>h2 {
@@ -437,7 +432,7 @@ img {
 	.menu3,
 	.menu4 {
 		min-width: 325px;
-		height: 900px;
+		height: 1000px;
 	}
 	img {
 		display: none;
