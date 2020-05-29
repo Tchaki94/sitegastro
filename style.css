@@ -34,8 +34,11 @@ h4 {
 .main {
 	width: 100%;
 }
-.main-menu2 {
-	height: 770px;
+.main-menu1,
+.main-menu2,
+.main-menu3,
+.main-menu4 {
+	height: 950px;
 }
 .resto1, 
 .resto2, 
@@ -127,6 +130,8 @@ footer {
 	width: 100%;
 	margin-top: 30px;
 	height: 60px;
+	position: fixed;
+	bottom: 0;
 }
 .btn5-6 {
 	display: flex;
@@ -136,7 +141,7 @@ footer {
 .mention,
 .contact {
 	background-color: #579C87;
-	width: 50%;
+	width: 48%;
 	height: 45px;
 	color: #fdcb46;
 	text-decoration: none;
@@ -159,7 +164,14 @@ footer {
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
 }
+.font {
+	font-family: 'Caudex', serif;
+	background: linear-gradient(to right, #c77412 0%,#c4a3fe 53%,#c4a3fe 53%,#6e4ccc 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+}
 .menu2 h2 {
+	font-family: 'Caudex', serif;
 	background: linear-gradient(to right, #c77412 0%,#c4a3fe 53%,#c4a3fe 53%,#6e4ccc 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
@@ -204,6 +216,9 @@ footer {
 	color: #72bf56;
 }
 .color1 {
+	color: #c77412;
+}
+.color1 h2{
 	color: #c77412;
 }
 .color2 {
