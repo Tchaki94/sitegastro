@@ -73,7 +73,7 @@ h4 {
 	background: #fcdfdb;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
 }
 .btn-secondary {
 	display: inline-block;
@@ -83,7 +83,7 @@ h4 {
 	background: #fff5fe;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
 	font-family: 'Caudex', serif;
 }
 .btn-tertiary {
@@ -95,7 +95,7 @@ h4 {
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Satisfy', cursive;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
 
 }
 .btn-quaternary {
@@ -106,12 +106,12 @@ h4 {
 	background: #fdfffd;
 	text-decoration: none;
 	text-align: center;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.1);
 	font-family: 'Kalam', cursive;
 }
 .soon {
 	background-color: #579C87;
-	border-radius: 10%;
+	border-radius: 13px;
 	width: 250px;
 	height: 50px;
 	margin: auto;
@@ -172,7 +172,7 @@ footer {
 }
 .menu2 h2 {
 	font-family: 'Caudex', serif;
-	background: linear-gradient(to right, #c77412 0%,#c4a3fe 53%,#c4a3fe 53%,#6e4ccc 100%);
+	background: linear-gradient(to right, #c77412 30%,#c4a3fe 53%,#c4a3fe 53%,#6e4ccc 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip:text;
 }
@@ -259,15 +259,18 @@ footer {
 .resto1:hover {
 	transform: scale(1.8);
 	opacity: 0.5;
+	transition-duration: 1s;
 }
 .resto2:hover {
 	transform: scale(1.4);
 	opacity: 0.5;
+	transition-duration: 1s;
 }
 .resto3:hover, 
 .resto4:hover {
 	transform: scale(1.6);
 	opacity: 0.5;
+	transition-duration: 1s;
 }
 /* fin btn scale */
 /* btn soulignement */
@@ -369,9 +372,8 @@ h3:hover::after {
 .menu3 h2,
 .menu4 h2 {
 	font-size: 22px;
-	display: flex;
+	text-align: center;
 	margin: auto;
-	justify-content: space-around;
 }
 .menu3 h3, 
 .menu2 h3, 
